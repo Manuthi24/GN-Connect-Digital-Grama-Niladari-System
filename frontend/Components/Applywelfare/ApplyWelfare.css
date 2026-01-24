@@ -1,0 +1,146 @@
+/* Modern Back Button Styles */
+.back-btn-modern {
+  background: linear-gradient(90deg, #fbeee6 0%, #f8fafc 100%);
+  border: 1.5px solid #bfa16c;
+  color: #3d2c00;
+  border-radius: 30px;
+  padding: 10px 32px;
+  font-size: 1.08rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  box-shadow: 0 2px 8px rgba(191,161,108,0.08);
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 20px;
+}
+.back-btn-modern:hover, .back-btn-modern:focus {
+  background: linear-gradient(90deg, #f8fafc 0%, #fbeee6 100%);
+  color: #bfa16c;
+  box-shadow: 0 4px 16px rgba(191,161,108,0.18);
+  border-color: #a88b4a;
+}
+/* ================= APPLY WELFARE PAGE ================= */
+
+/* Page wrapper - navbar & footer always full width */
+.apply-welfare-page {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* FORM CONTAINER */
+.apply-welfare-container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  font-family: "Segoe UI", Arial, sans-serif;
+  flex: 1; /* take available space between navbar & footer */
+}
+
+/* Title */
+.apply-welfare-container h1 {
+  text-align: center;
+  color: #F26722; /* Sampath Bank Tango */
+  margin-bottom: 25px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+/* Form Layout */
+.apply-welfare-container form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+/* Full width fields */
+.apply-welfare-container .form-full {
+  grid-column: 1 / 3;
+}
+
+/* Labels */
+.apply-welfare-container label {
+  font-weight: 600;
+  color: #000000;
+  display: block;
+  margin-bottom: 6px;
+}
+
+/* Inputs, selects, textareas */
+.apply-welfare-container input,
+.apply-welfare-container select,
+.apply-welfare-container textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 2px solid #e6e6e6;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+.apply-welfare-container input:focus,
+.apply-welfare-container select:focus,
+.apply-welfare-container textarea:focus {
+  border-color: #F26722;
+  box-shadow: 0 0 6px rgba(242,103,34,0.3);
+  outline: none;
+}
+
+/* Error messages */
+.apply-welfare-container div > div {
+  color: red;
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+/* Submit Button */
+.apply-welfare-container button[type="submit"] {
+  grid-column: 1 / 3;
+  padding: 14px;
+  background: #F26722;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.apply-welfare-container button[type="submit"]:hover {
+  background: #d9561c; /* darker tango */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* ================= Aswesuma Scheme Description ================= */
+.aswesuma-description {
+  grid-column: 1 / 3; /* Full width above the form */
+  background-color: #FFF9F0; /* Light highlight */
+  padding: 25px 30px;
+  border-left: 5px solid #F26722; /* Accent line */
+  border-radius: 10px;
+  margin-bottom: 25px;
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #333333;
+  line-height: 1.8;
+  text-align: center; /* Center everything */
+}
+
+/* Title inside the description */
+.aswesuma-description strong {
+  display: block;
+  font-size: 32px; /* Bigger title */
+  color: #F26722;
+  margin-bottom: 15px;
+  font-weight: 800;
+}
+
+/* Description paragraph */
+.aswesuma-description span {
+  font-size: 18px; /* Slightly larger than normal text */
+}
