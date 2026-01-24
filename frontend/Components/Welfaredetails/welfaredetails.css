@@ -1,0 +1,164 @@
+/* Search Section Styling */
+.search-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin: 24px auto 10px auto;
+  max-width: 500px;
+  padding: 18px 24px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.search-input {
+  flex: 1;
+  padding: 10px 14px;
+  border: 1.5px solid #F26722;
+  border-radius: 6px;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s;
+}
+.search-input:focus {
+  border: 2px solid #F26722;
+}
+
+.search-btn {
+  background: #F26722;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 22px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.search-btn:hover {
+  background: #d35400;
+}
+
+.no-results {
+  text-align: center;
+  color: #F26722;
+  font-size: 1.1rem;
+  margin-top: 30px;
+}
+/* welfaredetails.css */
+
+/* Page Title */
+h1 {
+  text-align: center;
+  font-size: 2.2rem;
+  margin: 20px 0;
+  color: #F26722; /* Tango */
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Container for all user cards */
+.users-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  padding: 20px;
+}
+
+/* Individual User Card */
+.user-card {
+  background-color: #FFFFFF;
+  border-left: 6px solid #F26722; /* Tango highlight */
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  width: 340px;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.user-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+}
+
+/* Headline for User ID */
+.user-card h2 {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  color: #000;
+  border-bottom: 2px solid #F26722;
+  padding-bottom: 8px;
+}
+
+/* Each Detail Row */
+.user-detail {
+  margin: 8px 0;
+}
+
+.user-detail label {
+  font-weight: bold;
+  color: #F26722; /* Tango label */
+  display: block;
+  font-size: 0.95rem;
+}
+
+.user-detail span {
+  color: #000000;
+  font-size: 1rem;
+  display: block;
+  margin-top: 3px;
+}
+
+/* Buttons Section */
+.action-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.action-buttons a,
+.action-buttons button {
+  text-decoration: none;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+/* Update Button */
+.action-buttons a {
+  background-color: #000000; /* black */
+  color: #FFFFFF;
+}
+
+.action-buttons a:hover {
+  background-color: #333333;
+}
+
+/* Delete Button */
+.action-buttons button {
+  background-color: #F26722; /* Tango */
+  color: #FFFFFF;
+}
+
+.action-buttons button:hover {
+  background-color: #d95c1e;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .users-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .user-card {
+    width: 90%;
+  }
+}
+
+
