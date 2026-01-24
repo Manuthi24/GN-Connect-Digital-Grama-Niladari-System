@@ -1,0 +1,102 @@
+.footer {
+  background-color: #050505; /* Original dark background */
+  color: #afadad;
+  padding: 20px 0;
+  font-family: 'Arial', sans-serif; /* Original font */
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.footer-section h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #a7a2a2;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-link {
+  color: #999693;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-link:hover {
+  color: #ff6200; /* Orange hover effect */
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.social-icon {
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-icon:hover {
+  color: #ff6200; /* Orange hover effect */
+}
+
+.footer-bottom {
+  width: 100%;
+  padding-top: 20px;
+  border-top: 1px solid #646060be;
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center everything horizontally */
+  justify-content: center;
+}
+
+.logo-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Keep logo + text centered */
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.gov-logo {
+  width: 50px; /* Original size */
+  height: auto;
+}
+
+.site-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #afadad; /* Original text color */
+}
+
+/* Icon styling for black and white */
+.footer-section ul li {
+  margin-bottom: 5px;
+}
+
+.footer-section ul li svg {
+  margin-right: 10px;
+  color: #e2a32f; /* Original icon color */
+  filter: grayscale(100%);
+  width: 16px;
+  height: 16px;
+}
