@@ -1,0 +1,87 @@
+.aswasuma-logo {
+  display: block;
+  margin: 0 auto 32px auto;
+  width: 190px;
+  height: 190px;
+  object-fit: contain;
+  border-radius: 50%;
+  border: 6px solid #F26722;
+  box-shadow: 0 6px 32px rgba(242,103,34,0.15), 0 3px 16px rgba(0,0,0,0.13);
+  background: linear-gradient(135deg, #fff 60%, #fbeee6 100%);
+  padding: 16px;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.aswasuma-logo:hover {
+  box-shadow: 0 8px 32px rgba(242,103,34,0.18), 0 4px 18px rgba(0,0,0,0.13);
+  transform: scale(1.04) rotate(-2deg);
+}
+.aswasuma-desc-container {
+  max-width: 650px;
+  margin: 48px auto 0 auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.13);
+  padding: 44px 38px 38px 38px;
+  text-align: center;
+}
+
+.aswasuma-title {
+  color: #F26722;
+  font-size: 2.4rem;
+  margin-bottom: 18px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+.aswasuma-highlight-box {
+  background: #fbeee6;
+  border-left: 6px solid #F26722;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  padding: 18px 18px 12px 18px;
+  font-size: 1.1rem;
+  color: #F26722;
+  font-weight: bold;
+  box-shadow: 0 2px 8px rgba(242,103,34,0.07);
+}
+
+.aswasuma-section {
+  margin-bottom: 32px;
+  text-align: left;
+}
+.aswasuma-section h2 {
+  color: #F26722;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.aswasuma-section p {
+  color: #333;
+  font-size: 1.08rem;
+  margin-bottom: 10px;
+  line-height: 1.7;
+}
+
+.aswasuma-actions {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  margin-top: 18px;
+}
+
+.aswasuma-btn {
+  background: #F26722;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  padding: 14px 32px;
+  font-size: 1.13rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+  box-shadow: 0 2px 8px rgba(242,103,34,0.08);
+}
+.aswasuma-btn:hover {
+  background: #d35400;
+  transform: translateY(-2px) scale(1.04);
+}
