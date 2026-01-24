@@ -1,0 +1,97 @@
+/* ================= UPDATE WELFARE PAGE ================= */
+
+/* Page wrapper - navbar & footer always full width */
+.update-welfare-page {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* FORM CONTAINER */
+.update-welfare-container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  font-family: "Segoe UI", Arial, sans-serif;
+  flex: 1; /* take available space between navbar & footer */
+}
+
+/* Title */
+.update-welfare-container h1 {
+  text-align: center;
+  color: #F26722; /* Sampath Bank Tango */
+  margin-bottom: 25px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+/* Form Layout */
+.update-welfare-container form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+/* Full width fields */
+.update-welfare-container .form-full {
+  grid-column: 1 / 3;
+}
+
+/* Labels */
+.update-welfare-container label {
+  font-weight: 600;
+  color: #000000;
+  display: block;
+  margin-bottom: 6px;
+}
+
+/* Inputs, selects, textareas */
+.update-welfare-container input,
+.update-welfare-container select,
+.update-welfare-container textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 2px solid #e6e6e6;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+.update-welfare-container input:focus,
+.update-welfare-container select:focus,
+.update-welfare-container textarea:focus {
+  border-color: #F26722;
+  box-shadow: 0 0 6px rgba(242,103,34,0.3);
+  outline: none;
+}
+
+/* Error messages */
+.update-welfare-container div > div {
+  color: red;
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+/* Submit Button */
+.update-welfare-container button[type="submit"] {
+  grid-column: 1 / 3;
+  padding: 14px;
+  background: #F26722;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.update-welfare-container button[type="submit"]:hover {
+  background: #d9561c; /* darker tango */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
