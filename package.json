@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "html2canvas": "^1.4.1",
+    "jspdf": "^3.0.3",
+    "jspdf-autotable": "^5.0.2"
+  },
+  "devDependencies": {
+    "baseline-browser-mapping": "^2.9.17"
+  }
+}
