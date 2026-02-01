@@ -1,4 +1,13 @@
 # GN Connect – Digital Grama Niladari System
+![Web App](https://img.shields.io/badge/App-Web%20Application-blue)
+![Frontend](https://img.shields.io/badge/Frontend-HTML%20%26%20CSS-orange)
+![JavaScript](https://img.shields.io/badge/JavaScript-Interactive%20UI-yellow)
+![Backend](https://img.shields.io/badge/Backend-API%20Server-green)
+![Database](https://img.shields.io/badge/Database-SQL%20%7C%20NoSQL-lightgrey)
+![Admin Dashboard](https://img.shields.io/badge/Admin%20Dashboard-Management-red)
+![GitHub](https://img.shields.io/badge/GitHub-Version%20Control-black)
+![Portfolio Project](https://img.shields.io/badge/Type-Portfolio%20Project-important)
+
 
 <img width="2545" height="1402" alt="Home Page" src="assests/image1.jpeg" />
 
